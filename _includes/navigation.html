@@ -1,7 +1,9 @@
 <nav>
-    {% for post in site.pages %}
+  {% for post in site.pages %}
+      {% if page.published == "yes" %}
   <li><a style="{% if page.url == post.url %}color:#db8b97;{% endif %}" href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+      {% endif %}
+  {% endfor %}
 <hr>
 {% for post in site.posts %}
   <li><a style="{% if page.url == post.url %}color:#db8b97;{% endif %}" href="{{ post.url }}">{{ post.title }}</a></li>
