@@ -1,0 +1,18 @@
+---
+layout: "wrapper"
+author: "sola"
+---
+
+{% if page.title == "Welcome to the Blog" %}
+  This is the first post
+  {% elsif page.title == "Welcome to Jekyll!" %}
+    This is the Jekyll post
+    {% else %}
+      This is another post
+  {% endif %}
+
+<h2>{{ page.title }}</h2>
+<h3>{{ layout.author }}</h3>
+<hr>
+
+{{ content }}

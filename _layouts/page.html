@@ -1,0 +1,11 @@
+---
+layout: wrapper
+---
+
+<h1>{{ page.title }}</h1>
+<hr>
+
+{% for person in site.data.people %}
+  {{ person.name }}, {{ person.occupation }} <br>
+  {% endfor %}
+{{ content }}
