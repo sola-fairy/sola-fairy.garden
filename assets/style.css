@@ -4,6 +4,12 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+hr {
+  height: 1px;
+  background: #fff;
+  border: 0;
+}
+
 nav {
   ul {
     list-style-type: none;
@@ -12,17 +18,21 @@ nav {
   }
   ul > li {
     display: inline-block;
+    
   }
   a:link, a:visited, a:active {
-    color: #2a4793;
+    color: white;
+    text-shadow: 0 0 5px #2a4793;
     text-decoration: none;
     background: linear-gradient(to right, #ddd7e5, #adb8d6);
     border-radius: 2px;
     padding: 3px;
     border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px #887b99;
   }
   a:hover {
-    color: #bdb4c9;
+    color: #db8b97;
+    text-shadow: 1px 1px 2px #c3e6cb;
   }
 }
 
@@ -52,6 +62,7 @@ nav {
 h1 {
   font-family: 'Reenie Beanie', sans-serif;
   color: #db8b97;
+  text-shadow: 2px 2px 1px #000000b3;
 }
 
 h2 {
@@ -67,10 +78,12 @@ h3 {
 
 a:link, a:visited, a:active {
   color: #9da9c9;
+  text-decoration-thickness: 1px;
 }
 
 a:hover {
-  color: #bdb4c9;
+  color: #db8b97;
+  text-shadow: 1px 1px 2px #c3e6cb;
 }
 
 b {

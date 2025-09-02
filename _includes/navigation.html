@@ -1,10 +1,10 @@
 <nav>
   <ul>
-    <li><a style="{% if page.url == "/" %}color:#db8b97;{% endif %}" href="/">Home</a></li>
+    <li><a style="{% if page.url == "/" %}color:#db8b97;text-shadow: 1px 1px 2px #c3e6cb;{% endif %}" href="/">Home</a></li>
 {% assign docs_by_order = site.docs | sort: "order" %}
   {% for doc in docs_by_order %}
   {% if doc.category == "published" %}
-    <li><a style="{% if page.url == doc.url %}color:#db8b97;{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a></li>
+    <li><a style="{% if page.url == doc.url %}color:#db8b97;text-shadow: 1px 1px 2px #c3e6cb;{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a></li>
   {% endif %}
 {% endfor %}
   </ul>
