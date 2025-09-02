@@ -33,25 +33,36 @@ nav {
 
 .post {
   border: 1px solid black;
-  white-space: pre-line;
-  
-  .top-matter {
-    white-space: normal;
-  }
 }
 
-h1, h3 {
+.top-matter {
+  border: 1px solid black;
+}
+
+.post-content {
+  line-height: 150%;
+}
+
+.post-content:first-letter {
+  font-family: 'Solway', serif;
+  font-size: 2em;
+  color: #295128;
+}
+
+h1 {
   font-family: 'Reenie Beanie', sans-serif;
   color: #db8b97;
-}
-
-b {
-  color: #541e16;
 }
 
 h2 {
   font-family: 'Solway', serif;
   color: #295128;
+}
+
+h3 {
+  font-family: 'Reenie Beanie', sans-serif;
+  color: #db8b97;
+  font-size: 2em;
 }
 
 a:link, a:visited, a:active {
@@ -60,4 +71,8 @@ a:link, a:visited, a:active {
 
 a:hover {
   color: #bdb4c9;
+}
+
+b {
+  color: #541e16;
 }
