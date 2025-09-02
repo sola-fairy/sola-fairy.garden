@@ -4,5 +4,13 @@
 
 layout: page
 title: Home
-published: yes
+category: published
+order: 1
 ---
+
+
+{% for doc in site.docs %}
+  {% if doc.category == "published" %}
+  {{ doc.title }} <br>
+  {% endif %}
+{% endfor %}

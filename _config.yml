@@ -67,3 +67,7 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+collections:
+  docs:
+    output: true
