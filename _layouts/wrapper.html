@@ -3,12 +3,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand|Rock Salt|Reenie Beanie|Poppins|Indie Flower|Solway' rel='stylesheet'>
     <title>{{ site.title }}</title>
 </head>
 <body>
-    {% include header.html %}
-
-    {{ content }}
-
+    <div class="wrap">
+      {% include header.html %}
+      {{ content }}
+    </div>
 </body>
 </html>

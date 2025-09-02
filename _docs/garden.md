@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Garden
+permalink: /garden/
 category: published
 order: 2
 ---
