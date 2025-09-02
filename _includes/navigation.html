@@ -1,12 +1,9 @@
 <nav>
   <li><a style="{% if page.url == "/" %}color:#db8b97;{% endif %}" href="/">Home</a></li>
-{% for doc in site.docs %}
+{% assign docs_by_order = site.docs | sort: "order" %}
+  {% for doc in docs_by_order %}
   {% if doc.category == "published" %}
   <li><a style="{% if page.url == doc.url %}color:#db8b97;{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a></li>
   {% endif %}
-{% endfor %}
-<hr>
-{% for post in site.posts %}
-  <li><a style="{% if page.url == post.url %}color:#db8b97;{% endif %}" href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </nav>
