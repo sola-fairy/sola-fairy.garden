@@ -32,6 +32,8 @@ hr {
 }
 
 nav {
+  anchor-name: --nav-bar;
+  
   ul {
     list-style-type: none;
     margin: 0;
@@ -117,4 +119,40 @@ a:hover {
 
 b {
   color: var(--bold);
+}
+
+.flowers {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  position-anchor: --nav-bar;
+  inset-block-end: anchor(--nav-bar bottom);
+}
+
+.flowers li {
+  display: inline-block;
+  list-style: none;
+  width: 7px;
+  height: 25px;
+  border-radius: 2px;
+  background: linear-gradient(45deg, #295128, #74b589);
+  margin: 10px;
+  animation: grow 10s linear infinite alternate;
+  }
+
+.flowers li:nth-child(odd) {
+  animation-delay: -1s;
+}
+
+@keyframes grow {
+  0% {
+    height: 25px;
+  }
+  50% {
+    height: 100px;
+  }
+  100% {
+    height: 50px;
+  }
 }
