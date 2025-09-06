@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Profile | Blog Preview
+title: Portfolio | Blog Preview
 ---
 <h2>Blog Preview Card Challenge</h2>
 

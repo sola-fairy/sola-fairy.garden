@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Profile | Social Links
+title: Portfolio | Social Links
 ---
 <h2>Social Links Challenge</h2>
 

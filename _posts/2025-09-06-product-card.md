@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Profile | Product Card
+title: Portfolio | Product Card
 ---
 <h2>Product Card Challenge</h2>
 
