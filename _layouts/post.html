@@ -3,12 +3,12 @@ layout: wrapper
 author: sola
 ---
 
-<div class="post-links"><a href="{{ page.previous.url }}" style="padding-right: 10px;">{{ page.previous.title }}</a> <span style="color:#fff;">|</span> <a href="{{ page.next.url }}" style="padding-left: 10px;">{{ page.next.title }}</a></div>
+<div class="post-links"><a href="{{ page.previous.url }}" class="left">{{ page.previous.title }}</a> <span style="color:#fff;">|</span> <a href="{{ page.next.url }}" class="right">{{ page.next.title }}</a></div>
 <hr>
 <div class="post">
     <div class="top-matter">
-      <h2>{{ page.title }}</h2>
-      <h3>by {{ layout.author }}</h3>
+      <h1>{{ page.title }}</h1>
+      <h2>by {{ layout.author }}</h2>
     </div>
   <div class="post-content">{{ content }}</div>
 </div>

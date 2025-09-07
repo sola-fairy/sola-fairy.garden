@@ -1,11 +1,6 @@
 :root {
   --border-radius: 3px;
-  --bg1: #e5eec5;
-  --text1: #000;
-  --header-odd: #db8b97;
-  --header-even: #295128;
-  --links: #9da9c9;
-  --bold: #541e16;
+  --bg1: #fff;
   --block-link-text: #fff;
   --block-link-textshadow: 0 0 5px #2a4793;
   --block-link-bg: linear-gradient(to right, #ddd7e5, #adb8d6);
@@ -20,7 +15,7 @@
 
 body {
   background-color: var(--bg1);
-  color: var(--text1);
+  color: var(--black);
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -31,17 +26,19 @@ body {
 }
 
 .post-links {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
 hr {
   height: 1px;
-  background: #fff;
+  background: var(--black);
   border: 0;
+  margin: 15px;
 }
 
 nav {
+  margin-top: 15px;
   anchor-name: --nav-bar;
   
   ul {
@@ -54,18 +51,23 @@ nav {
     
   }
   a:link, a:visited, a:active {
-    color: var(--block-link-text);
-    text-shadow: var(--block-link-textshadow);
+    color: var(--black);
+    text-shadow: none;
     text-decoration: none;
-    background: var(--block-link-bg);
-    border-radius: var(--border-radius);
-    padding: 3px;
-    border: 1px solid white;
-    box-shadow: var(--block-link-boxshadow);
+    background: var(--bg1);
+    border-bottom-right-radius: var(--border-radius);
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 3px 3px 0px 0px var(--wisteria);
+    transition: ease-in-out .2s;
   }
   a:hover {
-    color: var(--header-odd);
-    text-shadow: var(--hover-shadow);
+    transform: scale(1.2);
+    margin-left: 15px;
+    margin-right: 15px;
   } 
 }
 
@@ -104,39 +106,61 @@ nav {
 }
 
 h1 {
-  font-family: 'Reenie Beanie', sans-serif;
-  color: var(--header-odd);
+  font-family: 'Indie Flower', sans-serif;
+  color: var(--melon);
   text-shadow: 2px 2px 0px #000000b3;
+  font-size: 2.75em;
 }
 
 h2 {
-  font-family: 'Indie Flower', sans-serif;
-  color: var(--header-even);
-  font-size: 2em;
-  text-shadow: 2px 2px 2px #74b589;
+  font-family: 'Reenie Beanie', sans-serif;
+  color: var(--wisteria);
+  font-size: 2.5em;
+  text-shadow: 2px 2px 0px #000000b3;
 }
 
 h3 {
   font-family: 'Reenie Beanie', sans-serif;
-  color: var(--header-odd);
-  font-size: 2em;
+  color: var(--tea-green);
+  font-size: 2.2em;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 a:link, a:visited, a:active {
-  color: var(--links);
-  text-decoration-thickness: 1px;
+  display: inline-block;
+  background-color: var(--wisteria);
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: .6s;
 }
 
 a:hover {
-  color: var(--header-odd);
-  text-shadow: var(--hover-shadow);
+  background-color: var(--tea-green);
 }
+
+
+a.left:hover {
+  transform: translateX(-10px);
+}
+
+a.right:hover {
+  transform: translateX(10px);
+} 
+
 
 b {
   color: var(--bold);
 }
 
 .flowers {
+  display: none;
   position: absolute;
   margin: 0;
   padding: 0;
