@@ -161,7 +161,8 @@ a.left:before {
 
 a.left:hover:before {
   content: "\2190";
-  font-size: 1rem;
+  transform: scale(16);
+  transform-origin: center;
   margin-right: 1.1rem;
   opacity: 1;
 }
@@ -176,7 +177,8 @@ a.right:after {
 
 a.right:hover:after {
   content: "\2192";
-  font-size: 1rem;
+  transform: scale(16);
+  transform-origin: center;
   margin-left: 1.1rem;
   opacity: 1;
 }
@@ -239,4 +241,15 @@ b {
   100% {
     transform: scale(1.1) rotate(0deg);
   }
+}
+
+figure {
+  anchor-name: --preview;
+}
+
+figcaption {
+  position: fixed;
+  position-anchor: --preview;
+  inset-block-start: anchor(--preview top);
+  justify-self: anchor-center;
 }
