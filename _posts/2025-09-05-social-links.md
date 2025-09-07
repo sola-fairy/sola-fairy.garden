@@ -2,7 +2,6 @@
 layout: post
 title: Social Links
 ---
-<h2>Social Links Challenge</h2>
 
 See it live here: <a href="https://sola-fairy.github.io/social-links/" target="new">Sola's Social Links</a>
 

@@ -78,10 +78,14 @@ nav {
   border: none;
   padding: 10px;
   border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .top-matter {
   border-radius: var(--border-radius);
+  text-align: center;
 }
 
 .post-content {
