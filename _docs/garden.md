@@ -2,7 +2,7 @@
 layout: page
 title: Garden
 permalink: /garden/
-category: published
+category: unpublished
 order: 2
 ---
 

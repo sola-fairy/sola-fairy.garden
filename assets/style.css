@@ -124,11 +124,15 @@ h3 {
 .post a:link, .post a:visited, .post a:active {
     display: inline;
   line-height: 180%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .page a:link, .page a:visited, .page a:active {
     display: inline;
     line-height: 180%;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 
 a:link, a:visited, a:active {
