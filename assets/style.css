@@ -75,9 +75,8 @@ nav {
 }
 
 .post {
-  border: 1px solid #fff;
+  border: none;
   padding: 10px;
-  box-shadow: 4px 4px 1px #9d8c9f6e;
   border-radius: var(--border-radius);
 }
 

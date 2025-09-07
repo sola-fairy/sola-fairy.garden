@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Portfolio | Recipe Page
+title: Recipe Page
 ---
 <h2>Recipe Page Challenge</h2>
 
