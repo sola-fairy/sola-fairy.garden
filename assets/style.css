@@ -74,6 +74,13 @@ nav {
   margin: auto;
 }
 
+.page {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .post {
   border: none;
   padding: 10px;
@@ -86,19 +93,14 @@ nav {
 .top-matter {
   border-radius: var(--border-radius);
   text-align: center;
+  width: 100%;
 }
 
 .post-content {
   padding-top: 10px;
   line-height: 150%;
   text-align: justify;
-}
-
-.post-content:first-letter {
-  font-family: 'Rock Salt', serif;
-  font-size: 2em;
-  color: var(--header-even);
-  text-shadow: 3px 0px 1px #74b589;
+  width: 100%;
 }
 
 h1 {
