@@ -121,6 +121,16 @@ h3 {
     1px 1px 0 black;
 }
 
+.post a:link, .post a:visited, .post a:active {
+    display: inline;
+  line-height: 180%;
+}
+
+.page a:link, .page a:visited, .page a:active {
+    display: inline;
+    line-height: 180%;
+}
+
 a:link, a:visited, a:active {
   display: flex;
   align-items: center;
