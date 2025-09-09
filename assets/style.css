@@ -8,6 +8,11 @@
   --tea-green: hsla(90, 70%, 79%, 1);
 }
 
+@font-face {
+  font-family: 'Cartograph Thin';
+  src: url("assets/other/fonts/Cartograph/CartographCF-Thin.otf") format("opentype");
+}
+
 body {
   background-color: var(--bg1);
   color: var(--black);
@@ -104,7 +109,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Reenie Beanie', sans-serif;
+  font-family: 'Cartograph Thin', serif;
   color: var(--wisteria);
   font-size: 2.5em;
   text-shadow: 2px 2px 0px #000000b3;
