@@ -23,6 +23,21 @@
   src: url("/assets/other/fonts/Cartograph/CartographCF-Regular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: 'Cartograph Regular Italic';
+  src: url("/assets/other/fonts/Cartograph/CartographCF-RegularItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Cartograph Bold';
+  src: url("/assets/other/fonts/Cartograph/CartographCF-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Cartograph Bold Italic';
+  src: url("/assets/other/fonts/Cartograph/CartographCF-BoldItalic.otf") format("opentype");
+}
+
 body {
   background-color: var(--bg1);
   color: var(--black);
@@ -93,6 +108,10 @@ nav {
   font-family: 'Cartograph Thin Italic';
 }
 
+.page b {
+  font-family: 'Cartograph Bold';
+}
+
 .post {
   border: none;
   padding: 10px;
@@ -116,14 +135,14 @@ nav {
 }
 
 h1 {
-  font-family: 'Indie Flower', sans-serif;
+  font-family: 'Cartograph Thin', serif;
   color: var(--melon);
   text-shadow: 2px 2px 0px #000000b3;
   font-size: 2.75em;
 }
 
 h2 {
-  font-family: 'Cartograph Thin', serif;
+  font-family: 'Cartograph Thin Italic', serif;
   color: var(--wisteria);
   font-size: 2.5em;
   text-shadow: 2px 2px 0px #000000b3;
@@ -141,7 +160,7 @@ h3 {
 }
 
 .post a:link, .post a:visited, .post a:active {
-    display: inline;
+  display: inline;
   line-height: 180%;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
@@ -168,6 +187,7 @@ a:link, a:visited, a:active {
 
 a:hover {
   background-color: var(--tea-green);
+  font-family: 'Cartograph Thin Italic';
 }
 
 a.left:before {
