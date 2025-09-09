@@ -10,7 +10,12 @@
 
 @font-face {
   font-family: 'Cartograph Thin';
-  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Thin.otf") format("opentype");
+  src: url("/assets/other/fonts/Cartograph/CartographCF-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Cartograph Thin Italic';
+  src: url("/assets/other/fonts/Cartograph/CartographCF-ThinItalic.otf") format("opentype");
 }
 
 body {
