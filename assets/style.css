@@ -64,6 +64,7 @@ hr {
 
 nav {
   margin-top: 15px;
+  font-family: 'Cartograph Thin Italic';
   anchor-name: --nav-bar;
   
   ul {
