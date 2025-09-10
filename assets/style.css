@@ -108,11 +108,8 @@ nav {
 }
 
 .page i {
-  font-family: 'Cartograph Thin Italic';
-}
-
-.page b {
-  font-family: 'Cartograph Bold';
+  font-family: 'Sriracha', sans-serif;
+  font-style: italic;
 }
 
 .post {
