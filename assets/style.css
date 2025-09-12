@@ -85,7 +85,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
-  margin: 1rem;
 }
 
 body {
@@ -93,11 +92,14 @@ body {
   color: var(--black);
   font-family: 'LXGW WenKai Mono TC', sans-serif;
   font-weight: 300;
-  margin: 5rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+body > * + * {
+  margin-top: 1rem;
 }
 
 header {
@@ -111,8 +113,6 @@ header {
   color:var(--melon);
   font-family:'Sriracha', sans-serif;
   text-shadow: 0.125rem 0.125rem 0 #000000b3;
-  margin-bottom: 1rem;
-  anchor-name: --title-anchor;
 }
 
 @keyframes wiggle {
@@ -138,19 +138,14 @@ header {
 }
 
 nav {
-  position: fixed;
-  position-anchor: --title-anchor;
-  top: calc(anchor(bottom) + .5rem);
 
   ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
   }
   
   ul > li {
     display: inline-block;
-    margin: 0.625rem;
   }
 
   a:link, a:visited {
@@ -181,7 +176,6 @@ main {
   justify-content: space-between;
   width: 90vw;
   padding: calc(2vw + 1%);
-  margin-top: 3rem;
 }
 
 .portfolio-links {
