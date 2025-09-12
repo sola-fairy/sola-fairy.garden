@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Social Links
+tags: portfolio
 ---
 
 <div class="preview">

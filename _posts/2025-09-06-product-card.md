@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Product Card
+tags: portfolio
 ---
 
 <div class="preview">

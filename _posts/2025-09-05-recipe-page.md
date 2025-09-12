@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Recipe Page
+tags: portfolio
 ---
 
 <div class="preview">

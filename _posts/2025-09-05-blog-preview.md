@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog Preview
+tags: portfolio
 ---
 
 <div class="preview">
