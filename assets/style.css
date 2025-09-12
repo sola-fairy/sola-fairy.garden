@@ -137,7 +137,7 @@ nav {
     list-style-type: none;
     padding: 0;
     display: flex;
-    width: calc(90vw * (2 / 3));
+    width: calc(45vw * (2 / 3));
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
