@@ -89,6 +89,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 1rem;
 }
 
 body > * + * {
@@ -135,6 +136,11 @@ nav {
   ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    width: calc(90vw * (2 / 3));
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
   }
   
   ul > li {
