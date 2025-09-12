@@ -6,18 +6,7 @@ order: 1
 ---
 
 <h1>Welcome to the Garden</h1>
-<h2>home of the sola fairy</h2>
-
-Under construction using this color palette:
-
-<img src="https://sola-fairy.garden/assets/img/garden-palette.png" alt="color palette" style="width: 80%;border-radius: 5px;">
-
-<h3>Here</h3>
-
-You’ll find this post in your _posts directory. <i>Go ahead and edit it</i> and re-build the site to <b>see your changes</b>. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-YEAR-MONTH-DAY-title.MARKUP
-
-Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<h2>Home of the Sola Fairy</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h3>1914 Translation</h3>
+    <p>But I must explain to you how all this mistaken idea of <i>denouncing pleasure</i> and <b>praising pain</b> was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>

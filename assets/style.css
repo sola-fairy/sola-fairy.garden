@@ -1,41 +1,91 @@
 :root {
-  --border-radius: 3px;
+  --border-radius: 0.188rem;
   --bg1: #fff;
   --melon: hsla(0, 70%, 79%, 1); 
   --wisteria: hsla(270, 70%, 79%, 1);
   --papaya-whip: hsla(35, 100%, 92%, 1);
   --black: hsla(0, 0%, 0%, 1);
-  --tea-green: hsla(90, 70%, 79%, 1);
+  --tea-green: #c9efa4;
+  --white: hsla(0, 0%, 100%, 1);
+  --size-step--2: clamp(0.6944rem, 0.6405rem + 0.2697vw, 0.8681rem);
+  --size-step--1: clamp(0.8333rem, 0.7686rem + 0.3236vw, 1.0417rem);
+  --size-step-0: clamp(1rem, 0.9223rem + 0.3883vw, 1.25rem);
+  --size-step-1: clamp(1.2rem, 1.1068rem + 0.466vw, 1.5rem);
+  --size-step-2: clamp(1.44rem, 1.3282rem + 0.5592vw, 1.8rem);
+  --size-step-3: clamp(1.728rem, 1.5938rem + 0.6711vw, 2.16rem);
+  --size-step-4: clamp(2.0736rem, 1.9125rem + 0.8053vw, 2.592rem);
+  --size-step-5: clamp(2.4883rem, 2.2951rem + 0.9663vw, 3.1104rem);
 }
 
 @font-face {
   font-family: 'Cartograph Thin';
-  src: url("/assets/other/fonts/Cartograph/CartographCF-Thin.otf") format("opentype");
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Thin.otf") format("opentype");
 }
 
 @font-face {
   font-family: 'Cartograph Thin Italic';
-  src: url("/assets/other/fonts/Cartograph/CartographCF-ThinItalic.otf") format("opentype");
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-ThinItalic.otf") format("opentype");
 }
 
 @font-face {
   font-family: 'Cartograph Regular';
-  src: url("/assets/other/fonts/Cartograph/CartographCF-Regular.otf") format("opentype");
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: 'Cartograph Regular Italic';
-  src: url("/assets/other/fonts/Cartograph/CartographCF-RegularItalic.otf") format("opentype");
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-RegularItalic.otf") format("opentype");
 }
 
 @font-face {
   font-family: 'Cartograph Bold';
-  src: url("/assets/other/fonts/Cartograph/CartographCF-Bold.otf") format("opentype");
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: 'Cartograph Bold Italic';
-  src: url("/assets/other/fonts/Cartograph/CartographCF-BoldItalic.otf") format("opentype");
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-BoldItalic.otf") format("opentype");
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+  margin: 1rem;
 }
 
 body {
@@ -43,247 +93,291 @@ body {
   color: var(--black);
   font-family: 'LXGW WenKai Mono TC', sans-serif;
   font-weight: 300;
-}
-
-.header {
+  margin: 5rem 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.post-links {
-  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-hr {
-  height: 1px;
-  background: var(--black);
-  border: 0;
-  margin: 15px;
-}
-
-nav {
-  margin-top: 15px;
-  font-family: 'LXGW WenKai Mono TC', sans-serif;
-  font-weight: 400;
-  anchor-name: --nav-bar;
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  ul > li {
-    display: inline-block;
-    
-  }
-  a:link, a:visited, a:active {
-    color: var(--black);
-    text-shadow: none;
-    text-decoration: none;
-    background: var(--bg1);
-    border-bottom-right-radius: var(--border-radius);
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    padding: 5px 10px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    box-shadow: 3px 3px 0px 0px var(--wisteria);
-  }
-  a:hover {
-    animation: wiggle .5s linear 3;
-  } 
-}
-
-.wrap {
-  width: 95%;
-  margin: auto;
-}
-
-.page {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.page i, .page b {
-  font-family: 'Cartograph Bold Italic', serif;
-  color: var(--melon);
-}
-
-.post {
-  border: none;
-  padding: 10px;
-  border-radius: var(--border-radius);
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.top-matter {
-  border-radius: var(--border-radius);
-  text-align: center;
-  width: 100%;
-}
-
-.post-content {
-  padding-top: 10px;
-  line-height: 150%;
-  text-align: justify;
-  width: 100%;
-}
-
-h1 {
-  font-family: 'Cartograph Thin', serif;
-  color: var(--melon);
-  text-shadow: 2px 2px 0px #000000b3;
-  font-size: 2.75em;
-}
-
-h2 {
-  font-family: 'Cartograph Thin Italic', serif;
-  color: var(--wisteria);
-  font-size: 2.5em;
-  text-shadow: 2px 2px 0px #000000b3;
-}
-
-h3 {
-  font-family: 'Sriracha', sans-serif;
-  color: var(--tea-green);
-  font-size: 2em;
-  text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-}
-
-.post a:link, .post a:visited, .post a:active {
-  display: inline;
-  line-height: 180%;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-}
-
-.page a:link, .page a:visited, .page a:active {
-    display: inline;
-    line-height: 180%;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-}
-
-a:link, a:visited, a:active {
-  display: flex;
-  align-items: center;
-  background-color: var(--wisteria);
-  color: #fff;
-  text-shadow: 1px 1px 2px #000;
-  text-decoration: none;
-  padding: 5px 20px;
-  border-radius: 5px;
-  transition: .6s;
-}
-
-a:hover {
-  background-color: var(--tea-green);
-  font-family: 'Cartograph Thin Italic';
-}
-
-a.left:before {
-  transition: .6s;
-  content: "\2190";
-  font-size: .1rem;
-  margin-right: 0;
-  opacity: 0;
-}
-
-a.left:hover:before {
-  content: "\2190";
-  transform: scale(16);
-  transform-origin: center;
-  margin-right: 1.1rem;
-  opacity: 1;
-}
-
-a.right:after {
-  content: "\2192";
-  font-size: .1rem;
-  margin-left: 0;
-  transition: .6s;
-  opacity: 0;
-}
-
-a.right:hover:after {
-  content: "\2192";
-  transform: scale(16);
-  transform-origin: center;
-  margin-left: 1.1rem;
-  opacity: 1;
-}
-
-.flowers {
-  display: none;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  z-index: -1;
-  position-anchor: --nav-bar;
-  inset-block-end: anchor(--nav-bar bottom);
-}
-
-.flowers li {
-  display: inline-block;
-  list-style: none;
-  width: 7px;
-  height: 25px;
-  border-radius: 2px;
-  background: linear-gradient(45deg, #295128, #74b589);
-  margin: 10px;
-  animation: grow 10s linear infinite alternate;
-  }
-
-.flowers li:nth-child(odd) {
-  animation-delay: -1s;
-}
-
-@keyframes grow {
-  0% {
-    height: 25px;
-  }
-  50% {
-    height: 100px;
-  }
-  100% {
-    height: 50px;
-  }
+.title {
+  font-size:4em;
+  color:var(--melon);
+  font-family:'Sriracha', sans-serif;
+  text-shadow: 0.125rem 0.125rem 0 #000000b3;
+  margin-bottom: 1rem;
+  anchor-name: --title-anchor;
 }
 
 @keyframes wiggle {
   0% {
-    transform: scale(1.1);
+    transform: scale(1);
   }
   25% {
     transform: scale(1.1) rotate(15deg);
+    margin-left: 0.938rem;
+    margin-right: 0.938rem;
   }
   50% {
     transform: scale(1.1) rotate(0deg);
   }
   75% {
     transform: scale(1.1) rotate(-15deg);
+    margin-left: 0.938rem;
+    margin-right: 0.938rem;
   }
   100% {
-    transform: scale(1.1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
   }
 }
 
-figure {
-  anchor-name: --preview;
+nav {
+  position: fixed;
+  position-anchor: --title-anchor;
+  top: calc(anchor(bottom) + .5rem);
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul > li {
+    display: inline-block;
+    margin: 0.625rem;
+  }
+
+  a:link, a:visited {
+    display: flex;
+    color: var(--black);
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom-right-radius: var(--border-radius);
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0.313rem 0.625rem;
+    border-bottom: 0.063rem solid black;
+    border-right: 0.063rem solid black;
+    box-shadow: 0.188rem 0.188rem 0 0 var(--wisteria);
+  }
+
+  a:focus, a:active, a:hover {
+    animation: wiggle .5s linear 3;
+    color: var(--melon);
+    font-family: 'Cartograph Thin Italic', serif;
+  }
 }
 
-figcaption {
-  position: fixed;
-  position-anchor: --preview;
-  inset-block-start: anchor(--preview top);
-  justify-self: anchor-center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  padding: calc(2vw + 1%);
+  margin-top: 3rem;
+}
+
+.portfolio-links {
+  display: flex;
+  justify-content: center;
+
+  a:link, a:visited {
+    display: flex;
+    align-items: center;
+    font-family: 'Cartograph Regular';
+    line-height: 1.8;
+    color: var(--melon);
+    text-decoration: none;
+  }
+
+  a.right {
+    background-image: linear-gradient(to right, var(--melon), var(--tea-green));
+    background-size: 0.625rem 0.188rem;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    margin-left: 0.625rem;
+  }
+
+  a.left {
+    background-image: linear-gradient(to right, var(--tea-green), var(--melon));
+    background-size: 0.625rem 0.188rem;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 0.625rem;
+  }
+
+  a:focus, a:active, a:hover {
+    font-family: 'Cartograph Regular Italic';
+    animation: fillLine 1500ms 1;
+    animation-fill-mode: forwards;
+  }
+
+  a.left:before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23efa4a4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-arrow-left-icon lucide-arrow-left'%3E%3Cpath d='m12 19-7-7 7-7'/%3E%3Cpath d='M19 12H5'/%3E%3C/svg%3E");
+    margin-right: 0;
+    opacity: 0;
+    color: var(--tea-green);
+  }
+
+  a.left:hover:before {
+    animation: fadeInLeft 1500ms 1;
+    animation-fill-mode: forwards;
+  }
+
+  a.right:after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23efa4a4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-arrow-right-icon lucide-arrow-right'%3E%3Cpath d='M5 12h14'/%3E%3Cpath d='m12 5 7 7-7 7'/%3E%3C/svg%3E");
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  a.right:hover:after {
+    animation: fadeInRight 1500ms 1;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes fillLine {
+  to {
+    background-size: 7.813rem 0.188rem;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate(-1.563rem, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(1.563rem, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(1.563rem, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-1.563rem, 0);
+  }
+}
+
+article {
+  padding: calc(1vw + 5%);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  p {
+    text-align: justify;
+  }
+  
+  a:link, a:visited {
+    color: var(--melon);
+    text-decoration: none;
+    font-family: 'Cartograph Regular';
+  }
+
+  a:hover {
+    font-family: 'Cartograph Regular Italic';
+  }
+
+  i, b {
+    font-family: 'Cartograph Bold Italic', serif;
+    color: var(--melon);
+  }
+}
+
+h1 {
+  font-family: 'Cartograph Thin', serif;
+  color: var(--melon);
+  text-shadow: 0.125rem 0.125rem 0 #000000b3;
+  font-size: var(--size-step-5);
+}
+
+h2 {
+  font-family: 'Cartograph Thin Italic', serif;
+  color: var(--wisteria);
+  font-size: var(--size-step-4);
+  text-shadow: 0.125rem 0.125rem 0 #000000b3;
+}
+
+h3 {
+  font-family: 'Sriracha', sans-serif;
+  color: var(--tea-green);
+  font-size: var(--size-step-3);
+  text-shadow:
+    -0.063rem -0.063rem 0 black,
+    0.063rem -0.063rem 0 black,
+    -0.063rem 0.063rem 0 black,
+    0.063rem 0.063rem 0 black;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+  align-self: center;
+  border: none;
+  width: 60rem;
+  height: 30rem;
+  max-width: 100vw;
+  max-height: 100dvh;
+  transform: scale(0.75);
+}
+
+footer {
+  font-size: .5em;
+}
+
+@keyframes bounce {
+  25% {
+    transform: translateY(-0.313rem);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-1.25rem);
+  }
+}
+
+.icon {
+  font-family: 'Material Symbols Outlined';
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 
+    'FILL' 0, 
+    'wght' 300, 
+    'GRAD' 0, 
+    'opsz' 48;
+  color: var(--wisteria);
+}
+
+.bounce:hover {
+  animation: bounce 545ms linear infinite;
+  transform-origin: center center;
+  cursor: pointer;
 }

@@ -2,11 +2,17 @@
   <ul>
     <li><a style="{% if page.url == "/" %}color:var(--melon);font-family:'Cartograph Thin Italic';{% endif %}" href="/">Home</a></li>
     <li><a style="{% if page.url == "/2025/09/05/blog-preview.html" %}color:var(--melon);font-family:'Cartograph Thin Italic';{% endif %}" href="/2025/09/05/blog-preview.html">Portfolio</a></li>
+    <li><a style="{% if page.url == "/about" %}color:var(--melon);font-family:'Cartograph Thin Italic';{% endif %}" href="/">About</a></li>
+    <li><a style="{% if page.url == "/contact" %}color:var(--melon);font-family:'Cartograph Thin Italic';{% endif %}" href="/">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- 
 {% assign docs_by_order = site.docs | sort: "order" %}
   {% for doc in docs_by_order %}
   {% if doc.category == "published" %}
     <li><a style="{% if page.url == doc.url %}color:var(--melon);font-family:'Cartograph Thin Italic';{% endif %}" href="{{ doc.url }}">{{ doc.title }}</a></li>
   {% endif %}
 {% endfor %}
-  </ul>
-</nav>
+-->
+
