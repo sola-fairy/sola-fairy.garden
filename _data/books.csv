@@ -1,4 +1,4 @@
-Title,Author,Genre,Publication Year,Read,Recommended,Cover URL
+Title,Author,Genre,Publication Year,Read,Recommended,CoverURL,Tags
 A Treasury of Irish Fairy and Folk Tales,Collection,Myth,2015,No,No,
 What the Wild Sea Can Be,Helen Scales,Science,2024,No,No,
 Fresh Banana Leaves,Jessica Hernandez,Science,2022,No,No,
@@ -25,7 +25,7 @@ The Time of Contempt,Andrzej Sapkowski,Fantasy,1995,No,No,
 Blood of Elves,Andrzej Sapkowski,Fantasy,1994,No,No,
 The Last Wish,Andrzej Sapkowski,Fantasy,1993,No,No,
 The Song of Achilles,Madeline Miller,Fantasy,2012,Yes,Yes,
-Circe,Madeline Miller,Fantasy,2018,Yes,Yes,/circe_cover.jpg
+Circe,Madeline Miller,Fantasy,2018,Yes,Yes,/assets/img/digital_library/circe_cover.jpg,"challenge,2025"
 Marlfox,Brian Jacques,Fantasy,1998,Yes,No,
 The Hobbit,J.R.R. Tolkein,Fantasy,1966,Yes,No,
 The Silmarillion,J.R.R. Tolkein,Fantasy,1977,Yes,No,
@@ -48,15 +48,15 @@ Lovecraft Tales,H.P. Lovecraft,Horror,2005,Yes,No,
 Inkheart,Cornelia Funke,Fantasy,2003,Yes,Yes,
 Inkspell,Cornelia Funke,Fantasy,2005,Yes,No,
 The Norton Anthology of English Literature,Collection,Literary,2006,Yes,No,
-Automatic Noodle,Analee Newitz,Science Fiction,2025,Yes,Yes,/automatic_noodle_cover.png
-The Three Body Problem,Cixin Liu,Science Fiction,2008,Yes,Yes,/3_body_cover.jpg
-The AI Con,Alex Hanna & Emily M. Bender,Science,2025,Yes,Yes,/ai_con_cover.png
-Children of Ruin,Adrian Tchaikovsky,Science Fiction,2015,Yes,No,/children_of_ruin_cover.jpg
-Children of Time,Adrian Tchaikovsky,Science Fiction,2018,Yes,No,/children_of_time_cover.jpg
-The Dark Forest,Cixin Liu,Science Fiction,2008,Yes,Yes,/dark_forest_cover.png
-The Ministry of Time,Kaliane Bradley,Science Fiction,2024,Yes,No,/ministry_of_time_cover.jpg
-Piranesi,Susanna Clarke,Fantasy,2020,Yes,Yes,/piranesi_cover.jpg
-Sea of Tranquility,Emily St. John Mandel,Science Fiction,2022,Yes,Yes,/sea_of_tranquility_cover.jpg
-Record of a Spaceborn Few,Becky Chambers,Science Fiction,2018,Yes,Yes,/spaceborn_cover.jpg
-Station Eleven,Emily St. John Mandel,Science Fiction,2014,Yes,Yes,/station_eleven_cover.jpg
-World Running Down,Al Hess,Science Fiction & Romance,2023,Yes,Yes,/world_running_cover.jpg
+Automatic Noodle,Analee Newitz,Science Fiction,2025,Yes,Yes,/assets/img/digital_library/automatic_noodle_cover.png,"challenge,2025"
+The Three Body Problem,Cixin Liu,Science Fiction,2008,Yes,Yes,/assets/img/digital_library/3_body_cover.jpg,"challenge,2025"
+The AI Con,Alex Hanna & Emily M. Bender,Science,2025,Yes,Yes,/assets/img/digital_library/ai_con_cover.png,"challenge,2025"
+Children of Ruin,Adrian Tchaikovsky,Science Fiction,2015,Yes,No,/assets/img/digital_library/children_of_ruin_cover.jpg,"challenge,2025"
+Children of Time,Adrian Tchaikovsky,Science Fiction,2018,Yes,No,/assets/img/digital_library/children_of_time_cover.jpg,"challenge,2025"
+The Dark Forest,Cixin Liu,Science Fiction,2008,Yes,Yes,/assets/img/digital_library/dark_forest_cover.png,"challenge,2025"
+The Ministry of Time,Kaliane Bradley,Science Fiction,2024,Yes,No,/assets/img/digital_library/ministry_of_time_cover.jpg,"challenge,2025"
+Piranesi,Susanna Clarke,Fantasy,2020,Yes,Yes,/assets/img/digital_library/piranesi_cover.jpg,"challenge,2025"
+Sea of Tranquility,Emily St. John Mandel,Science Fiction,2022,Yes,Yes,/assets/img/digital_library/sea_of_tranquility_cover.jpg,"challenge,2025"
+Record of a Spaceborn Few,Becky Chambers,Science Fiction,2018,Yes,Yes,/assets/img/digital_library/spaceborn_cover.jpg,"challenge,2025"
+Station Eleven,Emily St. John Mandel,Science Fiction,2014,Yes,Yes,/assets/img/digital_library/station_eleven_cover.jpg,"challenge,2025"
+World Running Down,Al Hess,Romance,2023,Yes,Yes,/assets/img/digital_library/world_running_cover.jpg,"challenge,2025"

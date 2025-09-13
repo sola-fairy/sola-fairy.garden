@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-category: published
+category: unpublished
 order: 3
 ---
 
