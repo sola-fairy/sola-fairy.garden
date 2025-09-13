@@ -35,7 +35,7 @@ I meandered through this shitheap and eventually picked up the thread of Italian
 
 Today I searched again for "Nazi futurism", and the AI Overview has changed its tune:
 
-![assets\img\ai_overview_nazi_futurism.png]
+![/assets/img/ai_overview_nazi_futurism.png]
 
 Now we're starting to get somewhere!
 

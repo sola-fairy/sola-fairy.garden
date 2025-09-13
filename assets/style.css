@@ -290,6 +290,11 @@ article {
   }
 }
 
+em {
+    font-family: 'Cartograph Bold Italic', serif;
+    color: var(--melon);
+}
+
 h1 {
   font-family: 'Cartograph Thin', serif;
   color: var(--melon);
