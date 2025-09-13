@@ -284,7 +284,7 @@ article {
     font-family: 'Cartograph Regular Italic';
   }
 
-  i, b {
+  i, b, em {
     font-family: 'Cartograph Bold Italic', serif;
     color: var(--melon);
   }

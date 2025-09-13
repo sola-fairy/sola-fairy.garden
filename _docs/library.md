@@ -6,7 +6,7 @@ category: published
 order: 1
 ---
 
-{% assign recommendations = site.data.books | where: 'Recommended', 'Yes' %}
+{% assign recommendations = site.data.books | where: 'Recommended', 'Yes' | sort: 'Title' %}
 {% for book in recommendations %}
     {% if book.Cover == nil %}
 <h3>{{ book.Title }}</h3>
