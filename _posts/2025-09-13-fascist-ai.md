@@ -6,7 +6,7 @@ tags: ai, fascism, technology
 
 ## Introduction
 
-I was listening to an episode of [Behind the Bastards about Heinrich Himmler](https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-four-how-heinrich-himmler-went-293664543/) and the host made a connection that made me go Surprised Pikachu Face.
+I was listening to an episode of [Behind the Bastards](https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-four-how-heinrich-himmler-went-293664543/) about Heinrich Himmler and the host made a connection that made me go Surprised Pikachu Face.
 
 > Fascism is always inextricably tied with futurism...In Italy, the first fascists to name themselves such worshiped airplanes and automobiles as signs of modernity. That's a huge deal for early fascism, is like this worship of speed...we've been talking about these guys who are obsessed with the Middle Ages, but they're also obsessed with new technology. And fascism is an ideology for the future, for people who embrace action for the sake of action and speed for the sake of speed...you can and should draw a line from these Italian fascists who are in love with automobiles and race cars and stuff, to the embrace of AI aesthetics by the modern fascists. 
 
