@@ -2,7 +2,7 @@
   --color-scheme: light dark;
   --border-radius: 0.188rem;
   --bg1: #fff;
-  --bg2: #000;
+  --bg2: #181717;
   --melon: #efa4a4; 
   --wisteria: #c9a4ef;
   --quote-bg: #f7efff;
@@ -288,7 +288,7 @@ article {
     font-family: 'Cartograph Regular Italic';
   }
 
-  i, b, em, strong {
+  i, b {
     font-family: 'Cartograph Bold Italic', serif;
     color: var(--melon);
   }
@@ -342,8 +342,14 @@ article {
   font-style: normal;
   }  
 
-  blockquote > p {
+  blockquote p {
     margin-bottom: 0;
+  }
+
+  blockquote em {
+    font-weight: 700;
+    color: var(--melon);
+    font-family: 'Montserrat Alternates', sans-serif;
   }
 }
 
@@ -362,6 +368,28 @@ em {
     font-family: 'Cartograph Bold Italic', serif;
     color: var(--melon);
 }
+
+strong {
+  font-family: 'Cartograph Bold Italic', serif;
+  color: var(--black);
+  padding: 5px;
+  border-end-end-radius: 5px;
+  background: #efa4a436;
+  border-left: 3px solid var(--melon);
+  font-size: 1.25em;
+  anchor-name: --strong-anchor;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: block;
+}
+
+strong:before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24' fill='%23efa4a436' stroke='%23efa4a4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-circle-alert-icon lucide-circle-alert'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' x2='12' y1='8' y2='12'/%3E%3Cline x1='12' x2='12.01' y1='16' y2='16'/%3E%3C/svg%3E");
+  position: absolute;
+  position-anchor: --strong-anchor;
+  left: calc(anchor(start) - 2.5rem);
+  margin-top: -5px;
+}  
 
 h1 {
   font-family: 'Cartograph Thin', serif;
