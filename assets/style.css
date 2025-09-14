@@ -422,6 +422,18 @@ footer {
   }
 }
 
+@keyframes ravenLine {
+  25% {
+   background-size: 25px 1px; 
+  }
+  50% {
+   background-size: 10px 1px; 
+  }
+  75% {
+   background-size: 50px 1px; 
+  }
+}
+
 .icon {
   font-family: 'Material Symbols Outlined';
   font-size: 3rem;
@@ -447,4 +459,16 @@ footer {
   animation: bounce 545ms linear infinite;
   transform-origin: center center;
   cursor: pointer;
+}
+
+.shadow {
+  width: fit-content;
+  background-image: linear-gradient(to right, var(--wisteria));
+  background-size: 10px 1px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.shadow:hover {
+  animation: ravenLine 545ms linear infinite;
 }
