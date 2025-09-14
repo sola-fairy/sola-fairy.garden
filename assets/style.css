@@ -155,7 +155,7 @@ nav {
   a:link, a:visited {
     display: flex;
     color: var(--black);
-    font-family: 'LXGW WenKai Mono TC', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     text-decoration: none;
     border-bottom-right-radius: var(--border-radius);
@@ -341,6 +341,10 @@ article {
   line-height: .6;
   font-style: normal;
   }  
+
+  blockquote > p {
+    margin-bottom: 0;
+  }
 }
 
 article * {
