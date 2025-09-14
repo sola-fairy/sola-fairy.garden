@@ -1,6 +1,8 @@
 :root {
+  --color-scheme: light dark;
   --border-radius: 0.188rem;
   --bg1: #fff;
+  --bg2: #000;
   --melon: #efa4a4; 
   --wisteria: #c9a4ef;
   --papaya-whip: hsla(35, 100%, 92%, 1);
@@ -83,10 +85,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-color: var(--bg1);
-  color: var(--black);
-  font-family: 'LXGW WenKai Mono TC', sans-serif;
-  font-weight: 300;
+  background-color: light-dark(var(--bg1), var(--bg2));
+  color: light-dark(var(--black), var(--white));
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,6 +154,7 @@ nav {
   a:link, a:visited {
     display: flex;
     color: var(--black);
+    font-family: 'LXGW WenKai Mono TC', sans-serif;
     font-weight: 400;
     text-decoration: none;
     border-bottom-right-radius: var(--border-radius);
@@ -276,25 +279,26 @@ article {
   a:link, a:visited {
     color: var(--melon);
     text-decoration: none;
-    font-family: 'Cartograph Regular';
+    font-family: 'Cartograph Thin';
     text-shadow:
     -1px -1px 0 #fff,
     1px -1px 0 #fff,
     -1px 1px 0 #fff,
     1px 1px 0 #fff;
-    background-image: var(--pastel-gradient);
-    background-size: 100% 5px;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    border-bottom: 1px solid var(--wisteria);
   }
 
   a:hover {
     font-family: 'Cartograph Regular Italic';
   }
 
-  i, b, em {
+  i, b, em, strong {
     font-family: 'Cartograph Bold Italic', serif;
     color: var(--melon);
+  }
+
+  p {
+    line-height: 1.7;
   }
 }
 
