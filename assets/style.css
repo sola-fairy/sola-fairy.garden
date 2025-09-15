@@ -3,7 +3,7 @@
   --border-radius: 0.188rem;
   --bg1: #fff;
   --bg2: #181717;
-  --melon: #efa4a4; 
+  --melon: #efa4a4;
   --wisteria: #c9a4ef;
   --quote-bg: #f7efff;
   --papaya-whip: hsla(35, 100%, 92%, 1);
@@ -22,36 +22,44 @@
 }
 
 @font-face {
-  font-family: 'Cartograph Thin';
-  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Thin.otf") format("opentype");
+  font-family: "Cartograph Thin";
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Thin.otf")
+    format("opentype");
 }
 
 @font-face {
-  font-family: 'Cartograph Thin Italic';
-  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-ThinItalic.otf") format("opentype");
+  font-family: "Cartograph Thin Italic";
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-ThinItalic.otf")
+    format("opentype");
 }
 
 @font-face {
-  font-family: 'Cartograph Regular';
-  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Regular.otf") format("opentype");
+  font-family: "Cartograph Regular";
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Regular.otf")
+    format("opentype");
 }
 
 @font-face {
-  font-family: 'Cartograph Regular Italic';
-  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-RegularItalic.otf") format("opentype");
+  font-family: "Cartograph Regular Italic";
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-RegularItalic.otf")
+    format("opentype");
 }
 
 @font-face {
-  font-family: 'Cartograph Bold';
-  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Bold.otf") format("opentype");
+  font-family: "Cartograph Bold";
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-Bold.otf")
+    format("opentype");
 }
 
 @font-face {
-  font-family: 'Cartograph Bold Italic';
-  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-BoldItalic.otf") format("opentype");
+  font-family: "Cartograph Bold Italic";
+  src: url("https://sola-fairy.garden/assets/other/fonts/Cartograph/CartographCF-BoldItalic.otf")
+    format("opentype");
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -70,24 +78,37 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
   text-wrap: pretty;
 }
 
 body {
-  background-color: light-dark(var(--bg1), var(--bg2));
-  color: light-dark(var(--black), var(--white));
-  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: var(--bg1);
+  color: var(--black);
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
   display: flex;
   flex-direction: column;
@@ -107,9 +128,9 @@ header {
 }
 
 .title {
-  font-size:4em;
-  color:var(--melon);
-  font-family:'Sriracha', sans-serif;
+  font-size: 4em;
+  color: var(--melon);
+  font-family: "Sriracha", sans-serif;
   text-shadow: 0.125rem 0.125rem 0 #000000b3;
 }
 
@@ -147,15 +168,16 @@ nav {
     flex-wrap: wrap;
     align-items: center;
   }
-  
+
   ul > li {
     display: inline-block;
   }
 
-  a:link, a:visited {
+  a:link,
+  a:visited {
     display: flex;
     color: var(--black);
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     text-decoration: none;
     border-bottom-right-radius: var(--border-radius);
@@ -167,10 +189,12 @@ nav {
     box-shadow: 0.188rem 0.188rem 0 0 var(--wisteria);
   }
 
-  a:focus, a:active, a:hover {
-    animation: wiggle .5s linear 3;
+  a:focus,
+  a:active,
+  a:hover {
+    animation: wiggle 0.5s linear 3;
     color: var(--melon);
-    font-family: 'Cartograph Thin Italic', serif;
+    font-family: "Cartograph Thin Italic", serif;
   }
 }
 
@@ -187,10 +211,11 @@ main {
   display: flex;
   justify-content: center;
 
-  a:link, a:visited {
+  a:link,
+  a:visited {
     display: flex;
     align-items: center;
-    font-family: 'Cartograph Regular';
+    font-family: "Cartograph Regular";
     line-height: 1.8;
     color: var(--melon);
     text-decoration: none;
@@ -212,8 +237,10 @@ main {
     margin-right: 0.625rem;
   }
 
-  a:focus, a:active, a:hover {
-    font-family: 'Cartograph Regular Italic';
+  a:focus,
+  a:active,
+  a:hover {
+    font-family: "Cartograph Regular Italic";
     animation: fillLine 1500ms 1;
     animation-fill-mode: forwards;
   }
@@ -275,30 +302,32 @@ article {
   display: flex;
   flex-direction: column;
   width: 100%;
-  text-align: justify;
-  
-  a:link, a:visited {
+
+  a:link,
+  a:visited {
     color: var(--melon);
     text-decoration: none;
-    font-family: 'Cartograph Thin';
+    font-family: "Cartograph Thin";
     border-bottom: 1px solid var(--wisteria);
   }
 
   a:hover {
-    font-family: 'Cartograph Regular Italic';
+    font-family: "Cartograph Regular Italic";
   }
 
-  i, b {
-    font-family: 'Cartograph Bold Italic', serif;
+  i,
+  b {
+    font-family: "Cartograph Bold Italic", serif;
     color: var(--melon);
   }
 
   p {
     line-height: 1.7;
+    text-indent: 2.5rem;
   }
 
   blockquote {
-    margin-left:calc(2vw + 1%);
+    margin-left: calc(2vw + 1%);
     margin-right: calc(2vw + 1%);
     background: var(--quote-bg);
     border-radius: 10px;
@@ -309,47 +338,42 @@ article {
   }
 
   blockquote:before {
-  content: "\201C";
-  color: var(--tea-green);
-  text-shadow:
-    -0.063rem -0.063rem 0 black,
-    0.063rem -0.063rem 0 black,
-    -0.063rem 0.063rem 0 black,
-    0.063rem 0.063rem 0 black;
-  font-size: calc(var(--size-step-5) + 1.5em);
-  font-family: 'Sriracha', sans-serif;
-  position: absolute;
-  position-anchor: --quote-anchor;
-  left: calc(anchor(start) - 2.5rem);
-  line-height: .55;
-  font-style: normal;
+    content: "\201C";
+    color: var(--tea-green);
+    text-shadow: -0.063rem -0.063rem 0 black, 0.063rem -0.063rem 0 black,
+      -0.063rem 0.063rem 0 black, 0.063rem 0.063rem 0 black;
+    font-size: calc(var(--size-step-5) + 1.5em);
+    font-family: "Sriracha", sans-serif;
+    position: absolute;
+    position-anchor: --quote-anchor;
+    left: calc(anchor(start) - 2.5rem);
+    line-height: 0.55;
+    font-style: normal;
   }
 
   blockquote:after {
-  content: "\201D";
-  color: var(--tea-green);
-  text-shadow:
-    -0.063rem -0.063rem 0 black,
-    0.063rem -0.063rem 0 black,
-    -0.063rem 0.063rem 0 black,
-    0.063rem 0.063rem 0 black;
-  font-size: calc(var(--size-step-5) + 1.5em);
-  font-family: 'Sriracha', sans-serif;
-  position: absolute;
-  position-anchor: --quote-anchor;
-  right: calc(anchor(end) - 1.5rem);
-  line-height: .6;
-  font-style: normal;
-  }  
+    content: "\201D";
+    color: var(--tea-green);
+    text-shadow: -0.063rem -0.063rem 0 black, 0.063rem -0.063rem 0 black,
+      -0.063rem 0.063rem 0 black, 0.063rem 0.063rem 0 black;
+    font-size: calc(var(--size-step-5) + 1.5em);
+    font-family: "Sriracha", sans-serif;
+    position: absolute;
+    position-anchor: --quote-anchor;
+    right: calc(anchor(end) - 1.5rem);
+    line-height: 0.6;
+    font-style: normal;
+  }
 
   blockquote p {
     margin-bottom: 0;
+    text-indent: 0;
   }
 
   blockquote em {
     font-weight: 700;
     color: var(--melon);
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
   }
 }
 
@@ -358,29 +382,32 @@ article * {
 }
 
 p > img {
-    border-radius: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 5px solid var(--wisteria);
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 5px solid var(--wisteria);
 }
 
 em {
-    font-family: 'Cartograph Bold Italic', serif;
-    color: var(--melon);
+  font-family: "Cartograph Regular Italic", serif;
+  color: var(--melon);
 }
 
 strong {
-  font-family: 'Cartograph Bold Italic', serif;
+  font-family: "Cartograph Regular", serif;
+  font-weight: 400;
   color: var(--black);
-  padding: 5px;
+  padding: 5px 10px;
   border-end-end-radius: 5px;
   background: #efa4a436;
   border-left: 3px solid var(--melon);
+  border-bottom: 2px dashed var(--melon);
   font-size: 1.25em;
   anchor-name: --strong-anchor;
   margin-left: 4rem;
   margin-right: 4rem;
   display: block;
+  text-indent: 0;
 }
 
 strong:before {
@@ -389,10 +416,11 @@ strong:before {
   position-anchor: --strong-anchor;
   left: calc(anchor(start) - 2.5rem);
   margin-top: -5px;
-}  
+  transform: scale(1.25);
+}
 
 h1 {
-  font-family: 'Cartograph Thin', serif;
+  font-family: "Cartograph Thin", serif;
   color: var(--melon);
   text-shadow: 0.125rem 0.125rem 0 #000000b3;
   font-size: var(--size-step-5);
@@ -400,28 +428,25 @@ h1 {
 }
 
 h2 {
-  font-family: 'Cartograph Thin Italic', serif;
+  font-family: "Cartograph Thin Italic", serif;
   color: var(--wisteria);
   font-size: var(--size-step-4);
   text-shadow: 0.125rem 0.125rem 0 #000000b3;
 }
 
 h3 {
-  font-family: 'Sriracha', sans-serif;
+  font-family: "Sriracha", sans-serif;
   color: var(--tea-green);
   font-size: var(--size-step-3);
-  text-shadow:
-    -0.063rem -0.063rem 0 black,
-    0.063rem -0.063rem 0 black,
-    -0.063rem 0.063rem 0 black,
-    0.063rem 0.063rem 0 black;
+  text-shadow: -0.063rem -0.063rem 0 black, 0.063rem -0.063rem 0 black,
+    -0.063rem 0.063rem 0 black, 0.063rem 0.063rem 0 black;
 }
 
 .preview {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 iframe {
@@ -435,7 +460,7 @@ iframe {
 }
 
 footer {
-  font-size: .5em;
+  font-size: 0.5em;
 }
 
 @keyframes bounce {
@@ -452,18 +477,18 @@ footer {
 
 @keyframes ravenLine {
   25% {
-   background-size: 25px 1px; 
+    background-size: 25px 1px;
   }
   50% {
-   background-size: 10px 1px; 
+    background-size: 10px 1px;
   }
   75% {
-   background-size: 50px 1px; 
+    background-size: 50px 1px;
   }
 }
 
 .icon {
-  font-family: 'Material Symbols Outlined';
+  font-family: "Material Symbols Outlined";
   font-size: 3rem;
   line-height: 1;
   letter-spacing: normal;
@@ -472,14 +497,10 @@ footer {
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: 'liga';
-  font-feature-settings: 'liga';
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
-  font-variation-settings: 
-    'FILL' 0, 
-    'wght' 300, 
-    'GRAD' 0, 
-    'opsz' 48;
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
   color: var(--wisteria);
 }
 
@@ -499,4 +520,35 @@ footer {
 
 .shadow:hover {
   animation: ravenLine 545ms linear infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--bg2);
+    color: var(--white);
+  }
+
+  article blockquote {
+    background: #3a3243;
+  }
+
+  nav {
+    & a:link,
+    & a:visited {
+      color: var(--white);
+      border: 0.063rem solid var(--white);
+    }
+  }
+
+  h1 {
+    text-shadow: 0.125rem 0.125rem 0 #df4040;
+  }
+
+  h2 {
+    text-shadow: 0.125rem 0.125rem 0 #7e00ff;
+  }
+
+  strong {
+    color: var(--white);
+  }
 }
