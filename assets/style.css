@@ -307,7 +307,7 @@ article {
   a:visited {
     color: var(--melon);
     text-decoration: none;
-    font-family: "Cartograph Thin";
+    font-family: "Cartograph Thin Italic";
     border-bottom: 1px solid var(--wisteria);
   }
 
