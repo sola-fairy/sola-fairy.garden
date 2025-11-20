@@ -55,3 +55,4 @@ I had to do an apology tour. Fine; I don't mind apologizing or owning up to it w
 The image did not end up in the final version of the course, though I was never told why it was removed. There was no conversation about using generative AI in course development. I was unsuccessful in convincing my colleagues to use images of real Black women. They seemed to prefer the AI-generated versions.
 
 ![AI-generated image of a wheelchair user](/assets/img/ai_gen_wheelchair.png)
+<sup>Shameful image made using Articulate Storyline's AI generator</sup>
