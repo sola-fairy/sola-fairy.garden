@@ -257,7 +257,7 @@ main {
 
 @container main-main (width >= 800px) {
   article {
-    width: 80%;
+    width: 95%;
   }
 }
 
