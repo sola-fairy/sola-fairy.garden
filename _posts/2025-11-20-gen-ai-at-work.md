@@ -28,7 +28,7 @@ No one in our office uses a wheelchair.
 
 If they did, they might have noticed that this AI-generated "wheelchair" did not resemble any wheelchair used in reality, but was rather a crude smashing together of such disparate elements as bicycle tires and office chair backs. A single handle on the left side of the chair, missing its partner on the right, capped off the lie.
 
-Because it was a lie.
+_Because it was a lie._
 
 I immediately thought about how I would feel if I was a wheelchair user who saw this image in a course. Would I be grateful that my organization's training department had deigned to include even this meek gesture at representation? Or would I be incensed to see a department that congratulates itself for its diversity and inclusion proudly displaying an image that did not actually represent me? Would I think about the non-wheelchair users viewing the course and decide bad representation was better than none? Or would I think about the human wheelchair users who modeled for the stock image companies, were paid for their work, and exercised some level of control over the way they appeared? Models that we're saying we don't need anymore, we can go to AI to generate fake images of underrepresented and marginalized groups?
 
@@ -46,7 +46,7 @@ More than anything else, I just knew it wasn't right. I have a very strong sense
 
 Of course, I was quickly reprimanded for the comment.
 
-"We're not in the business of Adobe Stock," my manager told me, when I tried to make a connection between the increasing reliance on AI image generators for pictures of underrepresented groups and the subsequent lack of incentive for companies like Adobe to hire real people to model for stock images.
+_"We're not in the business of Adobe Stock,"_ my manager told me, when I tried to make a connection between the increasing reliance on AI image generators for pictures of underrepresented groups and the subsequent lack of incentive for companies like Adobe to hire real people to model for stock images.
 
 In other words: the downstream effects of our use of generative AI is not our problem.
 

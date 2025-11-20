@@ -415,11 +415,10 @@ sup {
 } */
 
 em {
-  font-family: "Cartograph Regular Italic", serif;
+  font-family: "Cartograph Thin Italic", serif;
 }
 
 strong {
-  font-family: "Pixelify Sans", sans-serif;
   font-weight: 400;
   color: var(--black);
   padding: 5px 10px;
