@@ -538,6 +538,9 @@ footer {
       color: var(--white);
       border: 0.063rem solid var(--white);
     }
+    & a:hover {
+      color: var(--melon);
+    }
   }
 
   h1 {
