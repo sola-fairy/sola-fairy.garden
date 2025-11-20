@@ -2,28 +2,29 @@
 layout: wrapper
 author: sola
 ---
+
 <main>
   {% if page.tags contains "blog" %}
   <div class="portfolio-links">
     {% if page.previous.url == nil %}
-        <!--<a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#efa4a4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-redo2-icon lucide-redo-2"><path d="m15 14 5-5-5-5"/><path d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13"/></svg></a>-->
+    <!--<a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#efa4a4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-redo2-icon lucide-redo-2"><path d="m15 14 5-5-5-5"/><path d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13"/></svg></a>-->
     {% else %}
-      <a href="{{ page.previous.url }}" class="left">{{ page.previous.title }}</a>
+    <a href="{{ page.previous.url }}" class="left">{{ page.previous.title }}</a>
     {% endif %}
     <div class="shadow"><span class="icon bounce">raven</span></div>
     {% if page.next.url == nil %}
-        <!--<a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#efa4a4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-undo2-icon lucide-undo-2"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11"/></svg></a>-->
+    <!--<a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#efa4a4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-undo2-icon lucide-undo-2"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11"/></svg></a>-->
     {% else %}
-      <a href="{{ page.next.url }}" class="right">{{ page.next.title }}</a>
+    <a href="{{ page.next.url }}" class="right">{{ page.next.title }}</a>
     {% endif %}
   </div>
   {% else %}
-    <div class="shadow"><span class="icon bounce">raven</span></div>
+  <div class="shadow"><span class="icon bounce">raven</span></div>
   {% endif %}
   <article>
     {% unless page.title == 'Home' %}
-      <h1>{{page.title}}</h1>
-    {% endunless %}
-      {{ content }}    
+    <h1>{{page.title}}</h1>
+    {% endunless %} {{ content }}
   </article>
 </main>
+<footer></footer>
