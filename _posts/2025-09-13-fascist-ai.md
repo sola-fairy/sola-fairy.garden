@@ -1,6 +1,6 @@
 ---
 layout: page
-title: (DRAFT) Nazi Technofuturism and the Fascist Roots of AI Hype
+title: Nazi Technofuturism and the Fascist Roots of AI Hype
 tags: ai, fascism, technology, blog
 ---
 

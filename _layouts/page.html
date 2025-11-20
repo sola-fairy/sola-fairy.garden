@@ -24,7 +24,7 @@ author: sola
   <article>
     {% unless page.title == 'Home' %}
     <h1>{{page.title}}</h1>
-    {% endunless %} tags: {{page.tags}} {{ content }}
+    tags: {{page.tags}} {% endunless %} {{ content }}
   </article>
 </main>
 <footer></footer>
