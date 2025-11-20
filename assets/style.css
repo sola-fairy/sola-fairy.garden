@@ -257,7 +257,7 @@ main {
 
 @container main-main (width >= 800px) {
   article {
-    width: 95%;
+    width: 85%;
   }
 }
 
@@ -289,7 +289,7 @@ main {
   }
 
   article > p {
-    width: 95%;
+    width: 85%;
   }
 }
 
@@ -402,12 +402,20 @@ p > img {
   border: 5px solid var(--wisteria);
 }
 
-em {
+sup {
+  font-size: xx-small;
+}
+
+/* em {
   font-family: "Cartograph Regular Italic", serif;
   background-image: var(--rainbow);
   -webkit-background-clip: text !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent;
+} */
+
+em {
+  font-family: "Cartograph Regular Italic", serif;
 }
 
 strong {

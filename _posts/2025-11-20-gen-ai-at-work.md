@@ -10,6 +10,8 @@ I was excited when I received the review link. I felt like I was finally being i
 
 Opening the link, I saw cheerful stock-photo faces set to upbeat elevator music. No, our department did not make what I would call inspiring or skillful media. It was boring. It felt less like we were teaching the learner how to do their job and more like we were staging a performance that we could point to and say, _"Well, look at this course where we mention our organization's mission and goals! We're doing our job! Treat please!"_
 
+![Andy Dwyer Parks and Recreation gif](/assets/img/treat_please.gif)
+
 I had expected this. I'd spent the last 18 months of employment isolated in my cubicle, reviewing countless hours of online training published as far back as 2016. I knew our department's style and what my colleagues considered quality work. I disagreed, but I tend to have high expectations of others and myself. I was a state employee now. I had to learn to live with mediocrity.
 
 So I forgave the milquetoast elements of the lesson, and left glowing comments about the effectiveness of my coworkers' design and content choices. They weren't lies, just exaggerations—many of the things I praised were really just examples of meeting the bare minimum. This is being a good coworker, I thought. I am doing it. I am Collaborating<sup>TM</sup>.
