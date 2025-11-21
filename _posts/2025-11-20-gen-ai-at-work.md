@@ -4,6 +4,8 @@ title: I Was Right
 tags: ai, technology, blog, coded bias
 ---
 
+# That's Not A Wheelchair
+
 It was the first lesson prototype I had been asked to review. I was still new to my role, which I was beginning to suspect had been an ill-conceived addition to the training and education department for the judicial branch of my state. My relationship with my coworkers was awkward. Instead of being a member of any of our three specialized course development teams, my role was supposed to float in the in-between, a weird space consisting only of myself and my reporting manager and already entrenched in office politics that I didn't understand when I was hired and was having immense difficulty navigating.
 
 I was excited when I received the review link. I felt like I was finally being included in the work we did, and as a naturally creative person it was satisfying for me to see a tangible product of my effort. This lesson, a roughly ten-minute-long video course that the learner advanced through using interactive elements, was created by our instructional designer and curriculum writers using Articulate Storyline and based on content I had helped collect from a workgroup of subject matter experts.
@@ -55,4 +57,5 @@ I had to do an apology tour. Fine; I don't mind apologizing or owning up to it w
 The image did not end up in the final version of the course, though I was never told why it was removed. There was no conversation about using generative AI in course development. I was unsuccessful in convincing my colleagues to use images of real Black women. They seemed to prefer the AI-generated versions.
 
 ![AI-generated image of a wheelchair user](/assets/img/ai_gen_wheelchair.png)
-<sup>Shameful image made using Articulate Storyline's AI generator</sup>
+
+<figcaption>Shameful image made using Articulate Storyline's AI generator</figcaption>
