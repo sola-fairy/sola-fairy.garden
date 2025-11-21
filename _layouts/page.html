@@ -32,7 +32,7 @@ author: sola
     >
     {{ page.date }}
     <hr />
-    {% endunless %} {{ content }} {% if page.tag == 'blog' %}
+    {% endunless %} {{ content }} {% if page.tags contains 'blog' %}
     <span class="signature">-Sola</span>
     {% endif %}
   </article>
