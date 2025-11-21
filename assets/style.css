@@ -213,6 +213,7 @@ nav {
   a:visited {
     display: flex;
     color: var(--black);
+    background: white;
     font-family: "Pixelify Sans", sans-serif;
     text-decoration: none;
     border-radius: 3px;
@@ -387,7 +388,7 @@ article {
 
   .tags {
     background-image: var(--gradient);
-    font-family: "Cartograph Regular Italic", serif;
+    font-family: "Cartograph Thin Italic", serif;
     width: fit-content;
     border-radius: 3px;
     color: var(--black);
