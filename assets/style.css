@@ -23,6 +23,7 @@
   --dark-blue: #385dc1;
   --pink-bg: #ffefef;
   --grey-border: #525252;
+  --seafoam: #79eccd;
   --purpink: linear-gradient(
     90deg,
     hsl(273deg 68% 69%) 0%,
@@ -61,7 +62,7 @@
   );
   --purgreen: linear-gradient(
     90deg,
-    hsl(164deg 75% 70%) 0%,
+    hsl(164, 75%, 70%) 0%,
     hsl(199deg 100% 69%) 20%,
     hsl(283deg 86% 80%) 40%,
     hsl(283deg 86% 80%) 60%,
@@ -180,6 +181,7 @@ header {
 .title {
   font-size: 6em;
   color: var(--bright-pink);
+  text-shadow: 3px 3px 0px var(--tea-green);
   font-family: "Fleur De Leah", cursive;
   text-align: center;
   background-color: var(--bg1);
