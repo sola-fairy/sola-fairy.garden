@@ -178,9 +178,9 @@ header {
 }
 
 .title {
-  font-size: 4em;
+  font-size: 6em;
   color: var(--bright-pink);
-  font-family: "Cartograph Thin", serif;
+  font-family: "Fleur De Leah", cursive;
   text-align: center;
   background-color: var(--bg1);
   padding: 20px;
@@ -397,7 +397,9 @@ article {
   .signature {
     display: inline-block;
     font-family: "Mrs Saint Delafield", cursive;
-    font-size: var(--size-step-5);
+    font-size: 4em;
+    margin-left: auto;
+    margin-right: 5rem;
   }
 }
 
@@ -504,7 +506,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Fleur De Leah", cursive;
+  font-family: "Cartograph Regular Italic", serif;
   font-size: var(--size-step-4);
   background-image: var(--rainbow-rev);
   -webkit-background-clip: text !important;
