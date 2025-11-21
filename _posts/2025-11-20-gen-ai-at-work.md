@@ -4,7 +4,7 @@ title: I Was Right
 tags: ai, technology, blog, coded bias
 ---
 
-# That's Not A Wheelchair
+## That's Not A Wheelchair
 
 It was the first lesson prototype I had been asked to review. I was still new to my role, which I was beginning to suspect had been an ill-conceived addition to the training and education department for the judicial branch of my state. My relationship with my coworkers was awkward. Instead of being a member of any of our three specialized course development teams, my role was supposed to float in the in-between, a weird space consisting only of myself and my reporting manager and already entrenched in office politics that I didn't understand when I was hired and was having immense difficulty navigating.
 
