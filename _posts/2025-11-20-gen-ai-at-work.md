@@ -1,6 +1,6 @@
 ---
 layout: page
-title: I Was Right
+title: Your AI Slop Is Bad And You Should Feel Bad
 tags: ai, technology, blog, coded bias
 ---
 
