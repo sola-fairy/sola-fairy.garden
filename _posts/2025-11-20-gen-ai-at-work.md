@@ -26,7 +26,7 @@ It was bad. It was really poor quality. But that wasn't what set off alarm bells
 
 ![AI-generated image of a wheelchair user](/assets/img/ai_gen_wheelchair.png)
 
-<figcaption>Shameful image made using Articulate Storyline's AI generator</figcaption>
+<figcaption>Image made using Articulate Storyline's AI generator, September 2025</figcaption>
 
 I realized that my coworkers had decided they wanted to include an image of a wheelchair user for purposes of diversity—our department pays endless lip service to the principles of diversity, equity, inclusion, and belonging—and instead of using one of the images available through our stock image service subscriptions, they had decided to generate one using AI.
 

@@ -408,10 +408,12 @@ article * {
 }
 
 p > img {
-  border-radius: 10px;
+  border-radius: 3px;
   margin-right: auto;
   margin-left: auto;
-  border: 5px solid var(--bright-pink);
+  border: 1px solid var(--bright-pink);
+  outline: 1px dotted var(--bright-pink);
+  outline-offset: -5px;
 }
 
 sup {
@@ -458,7 +460,7 @@ strong {
 }
 
 strong:before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24' fill='none' stroke='%2319acef' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-circle-alert-icon lucide-circle-alert'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' x2='12' y1='8' y2='12'/%3E%3Cline x1='12' x2='12.01' y1='16' y2='16'/%3E%3C/svg%3E");
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24' fill='none' stroke='%23fc98c0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-circle-alert-icon lucide-circle-alert'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='12' x2='12' y1='8' y2='12'/%3E%3Cline x1='12' x2='12.01' y1='16' y2='16'/%3E%3C/svg%3E");
   position: absolute;
   position-anchor: --strong-anchor;
   left: calc(anchor(start) - 2.5rem);
