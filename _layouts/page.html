@@ -31,7 +31,7 @@ author: sola
       >
       {{ page.tags }}</span
     >
-    {{ page.date }}
+    {{ page.date | date: '%B %d, %Y' }}
     <hr />
     {{ content }}
     <span class="signature">-Sola</span>
