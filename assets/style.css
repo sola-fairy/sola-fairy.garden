@@ -403,7 +403,7 @@ p > img {
   border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
-  border: 5px solid var(--wisteria);
+  border: 5px solid var(--bright-pink);
 }
 
 sup {
@@ -413,6 +413,10 @@ sup {
 figcaption {
   font-size: var(--size-step--1);
   font-family: "Pixelify Sans", sans-serif;
+  top: calc(-2rem - 30px);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* em {
@@ -424,7 +428,7 @@ figcaption {
 } */
 
 em {
-  font-family: "Cartograph Thin Italic", serif;
+  text-decoration: underline 2px wavy var(--bright-pink);
 }
 
 strong {
