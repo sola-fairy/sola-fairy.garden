@@ -22,7 +22,8 @@ author: sola
   <div class="shadow"><span class="icon bounce">raven</span></div>
   {% endif %} -->
   <article>
-    {% unless page.title == 'Home' %}
+    {% unless page.title == 'Home' or 'Blog' or 'Portfolio' or 'Library' or
+    'About' %}
     <h1>{{ page.title }}</h1>
     <span class="tags"
       ><span style="font-family: 'Cartograph Regular Italic', serif"
@@ -32,9 +33,9 @@ author: sola
     >
     {{ page.date }}
     <hr />
-    {% endunless %} {{ content }} {% if post.tags contains 'blog' %}
+    {{ content }}
     <span class="signature">-Sola</span>
-    {% endif %}
+    {% endunless %}
   </article>
 </main>
 <footer></footer>
