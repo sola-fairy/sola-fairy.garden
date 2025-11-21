@@ -24,6 +24,7 @@
   --pink-bg: #ffefef;
   --grey-border: #525252;
   --seafoam: #79eccd;
+  --magenta: #e12872;
   --purpink: linear-gradient(
     90deg,
     hsl(273deg 68% 69%) 0%,
@@ -220,7 +221,9 @@ nav {
     text-decoration: none;
     border-radius: 3px;
     padding: 0.313rem 0.625rem;
-    border: 2px solid var(--grey-border);
+    border: 1px solid var(--grey-border);
+    outline: 1px solid var(--grey-border);
+    outline-offset: -6px;
   }
 
   a:focus,
@@ -334,7 +337,7 @@ article {
   a:hover {
     animation: linkFill 1s linear;
     animation-fill-mode: forwards;
-    color: #e12872;
+    color: var(--magenta);
   }
 
   i,
@@ -852,12 +855,14 @@ footer {
     & a:link,
     & a:visited {
       color: var(--white);
-      border: 0.063rem solid var(--white);
       background-color: var(--bg2);
+      border: 1px solid var(--bright-pink);
+      outline: 1px solid var(--bright-pink);
+      outline-offset: -6px;
     }
     & a:hover {
       color: var(--bright-pink);
-      outline-color: white;
+      outline: 1px dotted white;
     }
   }
 
