@@ -31,8 +31,9 @@ author: sola
       {{ page.tags }}</span
     >
     <hr />
-    {% endunless %} {{ content }}
+    {% endunless %} {{ content }} {% if page.tags contains "blog" %}
     <span class="signature">-Sola</span>
+    {% endif %}
   </article>
 </main>
 <footer></footer>
