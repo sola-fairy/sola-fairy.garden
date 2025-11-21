@@ -33,7 +33,8 @@ author: sola
     >
     {{ page.date | date: '%B %d, %Y' }}
     <hr />
-    {{ content }}
+    {% endunless %} {{ content }} {% unless page.title == 'Home' or 'Blog' or
+    'Portfolio' or 'Library' or 'About' %}
     <span class="signature">-Sola</span>
     {% endunless %}
   </article>
