@@ -414,6 +414,7 @@ p > img {
   border: 1px solid var(--bright-pink);
   outline: 1px dotted var(--bright-pink);
   outline-offset: -5px;
+  margin-bottom: 0;
 }
 
 sup {
@@ -423,11 +424,11 @@ sup {
 figcaption {
   font-size: var(--size-step--1);
   font-family: "Cartograph Thin Italic", sans-serif;
-  top: calc(-2rem - 30px);
+  top: -30px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -30px;
+  margin-bottom: 0;
 }
 
 /* em {
