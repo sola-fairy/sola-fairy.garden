@@ -386,11 +386,11 @@ article {
   }
 
   .tags {
-    background-image: var(--rainbow);
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    -webkit-text-fill-color: transparent;
+    background-image: var(--gradient);
     font-family: "Cartograph Regular Italic", serif;
+    width: fit-content;
+    border-radius: 3px;
+    color: var(--black);
   }
 }
 
@@ -422,7 +422,7 @@ sup {
 
 figcaption {
   font-size: var(--size-step--1);
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Cartograph Thin Italic", sans-serif;
   top: calc(-2rem - 30px);
   position: relative;
   margin-left: auto;
