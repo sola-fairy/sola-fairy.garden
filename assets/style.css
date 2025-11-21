@@ -393,6 +393,12 @@ article {
     border-radius: 3px;
     color: var(--black);
   }
+
+  .signature {
+    display: inline-block;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: var(--size-step-5);
+  }
 }
 
 @keyframes linkFill {
@@ -498,7 +504,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Cartograph Regular Italic", serif;
+  font-family: "Fleur De Leah", cursive;
   font-size: var(--size-step-4);
   background-image: var(--rainbow-rev);
   -webkit-background-clip: text !important;
