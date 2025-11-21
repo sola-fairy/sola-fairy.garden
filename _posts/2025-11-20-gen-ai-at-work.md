@@ -36,7 +36,15 @@ If they did, they might have noticed that this AI-generated "wheelchair" did not
 
 _Because it was a lie._
 
-I immediately thought about how I would feel if I was a wheelchair user who saw this image in a course. Would I be grateful that my organization's training department had deigned to include even this meek gesture at representation? Or would I be incensed to see a department that congratulates itself for its diversity and inclusion proudly displaying an image that did not actually represent me? Would I think about the non-wheelchair users viewing the course and decide bad representation was better than none? Or would I think about the human wheelchair users who modeled for the stock image companies, were paid for their work, and exercised some level of control over the way they appeared? Models that we're saying we don't need anymore, we can go to AI to generate fake images of underrepresented and marginalized groups?
+I immediately thought about how I would feel if I was a wheelchair user who saw this image in a course.
+
+Would I be grateful that my organization's training department had deigned to include even this meek gesture at representation?
+
+Or would I be incensed to see a department that congratulates itself for its diversity and inclusion proudly displaying an image that did not actually represent me?
+
+Would I think about the non-wheelchair users viewing the course and decide bad representation was better than none?
+
+Or would I think about the human wheelchair users who modeled for the stock image companies, were paid for their work, and exercised some level of control over the way they appeared? Models that we're saying we don't need anymore, we can go to AI to generate fake images of underrepresented and marginalized groups?
 
 To me, the image said, _"We do not care about accuracy or providence. We use real images of abled people but fake images of disabled people. It's too hard to look for better representation. As long as we check the boxes, we are happy. Image of a wheelchair user? Check. Image of a Black woman? Check. Treat please."_
 
