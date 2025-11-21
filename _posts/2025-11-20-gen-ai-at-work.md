@@ -67,3 +67,5 @@ In other words: the downstream effects of our use of generative AI is not our pr
 I had to do an apology tour. Fine; I don't mind apologizing or owning up to it when I'm wrong, and I could see how my comment might be unnecessarily combative. (As a woman in her early thirties, I am also sensitive to the fact that my male colleagues could very well write the same comment and be touted for their technical knowledge and sensitivity to societal issues. But I digress.)
 
 The image did not end up in the final version of the course, though I was never told why it was removed. There was no conversation about using generative AI in course development. I was unsuccessful in convincing my colleagues to use images of real Black women. They seemed to prefer the AI-generated versions.
+
+<span class="signature">-Sola</span>
