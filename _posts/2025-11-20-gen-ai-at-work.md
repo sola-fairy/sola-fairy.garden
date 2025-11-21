@@ -24,6 +24,10 @@ It appeared to be a photo of an office worker, taken from behind as they sat at 
 
 It was bad. It was really poor quality. But that wasn't what set off alarm bells in my head and caused my heart to drop through my stomach. It was the wheelchair—or, what was supposed to be a wheelchair—that the worker sat in. It did not look like any wheelchair I had ever seen.
 
+![AI-generated image of a wheelchair user](/assets/img/ai_gen_wheelchair.png)
+
+<figcaption>Shameful image made using Articulate Storyline's AI generator</figcaption>
+
 I realized that my coworkers had decided they wanted to include an image of a wheelchair user for purposes of diversity—our department pays endless lip service to the principles of diversity, equity, inclusion, and belonging—and instead of using one of the images available through our stock image service subscriptions, they had decided to generate one using AI.
 
 No one in our office uses a wheelchair.
@@ -55,7 +59,3 @@ In other words: the downstream effects of our use of generative AI is not our pr
 I had to do an apology tour. Fine; I don't mind apologizing or owning up to it when I'm wrong, and I could see how my comment might be unnecessarily combative. (As a woman in her early thirties, I am also sensitive to the fact that my male colleagues could very well write the same comment and be touted for their technical knowledge and sensitivity to societal issues. But I digress.)
 
 The image did not end up in the final version of the course, though I was never told why it was removed. There was no conversation about using generative AI in course development. I was unsuccessful in convincing my colleagues to use images of real Black women. They seemed to prefer the AI-generated versions.
-
-![AI-generated image of a wheelchair user](/assets/img/ai_gen_wheelchair.png)
-
-<figcaption>Shameful image made using Articulate Storyline's AI generator</figcaption>
