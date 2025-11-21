@@ -838,6 +838,7 @@ footer {
     border: 1px solid var(--bright-pink);
     outline: 1px solid var(--bright-pink);
     outline-offset: -6px;
+    text-shadow: none;
   }
 
   article {
