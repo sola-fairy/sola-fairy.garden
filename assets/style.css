@@ -349,6 +349,23 @@ article {
     font-size: 18px;
   }
 
+  ul {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 0;
+  }
+
+  li:before {
+    content: url("/assets/img/pixel_icons/heart.svg");
+    height: 1rem;
+    width: 1rem;
+  }
+
   blockquote {
     margin-left: auto;
     margin-right: auto;
