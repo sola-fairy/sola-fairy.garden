@@ -30,7 +30,7 @@ author: sola
       >
       {{ page.tags }}</span
     >
-    {{ page.date | date: '%B %d, %Y' }}
+    <span class="date"> {{ page.date | date: '%B %d, %Y' }}</span>
     <hr />
     {% endunless %} {{ content }}
   </article>
