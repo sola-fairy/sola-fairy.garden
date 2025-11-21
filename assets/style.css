@@ -410,6 +410,11 @@ sup {
   font-size: xx-small;
 }
 
+figcaption {
+  font-size: var(--size-step--1);
+  font-family: "Pixelify Sans", sans-serif;
+}
+
 /* em {
   font-family: "Cartograph Regular Italic", serif;
   background-image: var(--rainbow);
