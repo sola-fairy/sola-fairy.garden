@@ -25,6 +25,7 @@
   --grey-border: #525252;
   --seafoam: #79eccd;
   --magenta: #e12872;
+  --darkgreybg: #272525;
   --purpink: linear-gradient(
     90deg,
     hsl(273deg 68% 69%) 0%,
@@ -834,7 +835,7 @@ footer {
   }
 
   .title {
-    background-color: var(--bg2);
+    background-color: var(--darkgreybg);
     border: 1px solid var(--bright-pink);
     outline: 1px solid var(--bright-pink);
     outline-offset: -6px;
@@ -842,7 +843,7 @@ footer {
   }
 
   article {
-    background: var(--bg2);
+    background: var(--darkgreybg);
     border: 1px solid var(--bright-pink);
     outline: 1px solid var(--bright-pink);
     outline-offset: -6px;
@@ -856,7 +857,7 @@ footer {
     & a:link,
     & a:visited {
       color: var(--white);
-      background-color: var(--bg2);
+      background-color: var(--darkgreybg);
       border: 1px solid var(--bright-pink);
       outline: 1px solid var(--bright-pink);
       outline-offset: -6px;
