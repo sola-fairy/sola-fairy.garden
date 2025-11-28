@@ -456,6 +456,16 @@ article {
   }
 }
 
+@keyframes typing {
+  0% {
+    max-width: 1em;
+  }
+
+  100% {
+    max-width: 100%;
+  }
+}
+
 article * {
   margin-bottom: 2rem;
 }
